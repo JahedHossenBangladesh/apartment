@@ -7,7 +7,7 @@ const Search = () => {
             <div className="image">
           
         <div style={{paddingTop:"300px", textAlign:"center",paddingLeft:"400px"}}>
-        <h1 style={{color:"white" ,paddingLeft:"-200px" }}>Find Your House Rent</h1>
+        <h1 style={{color:"white" ,paddingLeft:"-200px",filter: "brightness(100%)"}}>Find Your House Rent</h1>
         <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-light">Search</Button>

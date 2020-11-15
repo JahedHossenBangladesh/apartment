@@ -1,4 +1,5 @@
 import React from 'react';
+import RentHouse from '../../RentHouse/RentHouse';
 
 import Navbar from '../Navbar/Navbar'
 import Search from '../Search/Search';
@@ -8,6 +9,7 @@ const Home = () => {
        
       <Navbar></Navbar>
       <Search></Search>
+      <RentHouse></RentHouse>
         </>
     );
 };
