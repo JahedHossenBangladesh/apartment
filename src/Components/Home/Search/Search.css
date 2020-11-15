@@ -1,0 +1,20 @@
+.background-img {
+ background-image: url("https://i.ibb.co/VByzGZp/Rectangle-13.png");
+ width:2840px ;
+ height:554px ;
+ background-repeat: no-repeat;
+}
+
+.image { 
+        background-image: url("https://i.ibb.co/VByzGZp/Rectangle-13.png");
+        height: 550px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+    @media only screen and (max-width: 320px) {
+        .image { 
+            background-image: url("https://i.ibb.co/VByzGZp/Rectangle-13.png"); 
+        }
+    }
