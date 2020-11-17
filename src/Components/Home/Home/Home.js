@@ -10,6 +10,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Search></Search>
       <RentHouse></RentHouse>
+      
         </>
     );
 };

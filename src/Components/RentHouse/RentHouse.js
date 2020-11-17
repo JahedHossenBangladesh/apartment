@@ -15,7 +15,8 @@ const RentHouse = () => {
             available today
             </h1>
             </div>
-           <div className="row m-5">
+            
+           <div className="row m-5 ">
                {   
                
                house.map(house => <RentHouseDetail key={house.key} house={house}></RentHouseDetail>)

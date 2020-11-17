@@ -1,0 +1,22 @@
+.houseDetails{}
+.houseDetails form{
+    background: #F4F7FC;
+}
+
+.houseDetails form  button{
+    margin-left: 10px;
+  background: #275A53;
+  height: 45px;
+  width: 100%;
+  line-height: 0px;
+  color: #fff;
+  padding: 0px !important;
+  border: 2px solid #275A53 !important;
+  transition: all 0.5s linear;
+}
+.houseDetails form  button:hover{
+    color: #275A53;
+    border: 2px solid #275A53 !important;
+  background: #0d413a00;
+ 
+}

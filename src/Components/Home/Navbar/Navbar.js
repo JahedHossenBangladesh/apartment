@@ -29,7 +29,8 @@ const Navbar = () => {
   
           <li className="nav-item active p-3">
   
-            <a className="nav-link text-dark active hoverColor" href="#">Home
+            <a className="nav-link text-dark active hoverColor" href="#">
+              <Link to='/'>Home</Link>
   
                   <span className="sr-only">(current)</span>
   

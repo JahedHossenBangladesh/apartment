@@ -1,0 +1,18 @@
+.adminNav{}
+.adminNav ul{
+    margin: 0 auto;
+    display: inline-block;
+}
+.adminNav ul li{
+    margin-top: 20px;
+    list-style: none;
+    text-align: left;
+}
+.adminNav ul li a{
+    color: #275A53;
+    font-weight: 600;
+    font-size: 18px;
+}
+.adminNav ul li a:hover{
+    text-decoration: none;
+}

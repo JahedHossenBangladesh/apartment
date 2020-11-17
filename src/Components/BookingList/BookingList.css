@@ -1,0 +1,25 @@
+.bookingSec{
+    background: #F6F8FC;
+}
+.bookingTable{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.bookingHeader {
+    background: #F6F8FC;
+    border: 0px solid #fff !important;
+    border-radius: 10px !important;
+}
+.bookingHeader tr{
+    background: #F6F8FC;
+    border: 0px solid #fff !important;
+
+}
+.bookingHeader th{
+    
+}
+.bookingList select{
+    width: 120px;
+}

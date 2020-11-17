@@ -1,0 +1,39 @@
+.addRent{
+    background: #F6F8FC;
+}
+.addRentForm{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.addRentForm input{
+    padding: 10px !important;
+    width:100% !important;
+    margin-bottom: 20px !important;
+    height: 40px;
+    border: none;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #b5b5b5 !important;
+    
+  }
+  .AddRentBtn{
+      height: 40px;
+   width:150px !important;
+   background: #275A53 !important;
+   border-radius: 5px !important;
+   border: 0px solid #7c7c7c !important;
+   font-weight: 300;
+   cursor: pointer;
+   color: #ffff;
+   margin-left: auto;
+display: block;
+}
+  .form-control:focus {
+   color: #495057;
+   background-color: #fff;
+   border-radius: 0px !important;
+    border-bottom: 1px solid #b5b5b5 !important;
+   outline: 0;
+   box-shadow: 0 0 0 .2rem rgba(0,123,255,0);
+}

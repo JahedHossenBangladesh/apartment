@@ -1,0 +1,70 @@
+  .loginForm{
+    border: 1px solid #7c7c7c;
+    padding: 20px !important;
+    border-radius: 5px;
+  
+   
+   .loginForm input{
+     padding: 10px !important;
+     width:100% !important;
+     margin-bottom: 20px !important;
+     height: 40px;
+     border: none;
+     border-radius: 0px !important;
+     border-bottom: 1px solid #b5b5b5 !important;
+     
+   }
+   .submitButton{
+    width: 100% !important;
+    background: #275A53 !important;
+    border-radius: 10px !important;
+    border: 0px solid #7c7c7c !important;
+    margin-top: 20px !important;
+    font-weight: 300;
+    cursor: pointer;
+    color: #ffff;
+   }
+   .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-radius: 0px !important;
+     border-bottom: 1px solid #b5b5b5 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,0);
+}
+  }
+.login {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login__logo img {
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .login__body {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .login__btn {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1rem 0.2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login__btnLogo {
+    height: 40px;
+  }
+
+
+

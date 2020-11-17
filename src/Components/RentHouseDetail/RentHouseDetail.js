@@ -7,11 +7,12 @@ const RentHouseDetail = ({house}) => {
     return (
       <>
     
-        <div className="col-md-4" >
+        <div className="col-md-4 col-sm-6 my-3 d-flex justify-content-center" >
         <CardGroup  style={{ display:"flex", border:"none"}} >
         <Card style={{ border:"none" }} >
-            <Card.Img variant="top" style={{ width: '18rem' }} src={house.img} className="center" />
-           <div className="row p-5 pl-0">
+            <Card.Img variant="top" style={{ width: '24rem' }} src={house.img} className="center" />
+           <div className="row p-5 pl-0 ">
+                   <div> <h5>{house.title}</h5></div>
               <div className="col-sm-8">
                  <h5 style={{paddingRight:"131px"}}>{house.price}</h5>
               </div>

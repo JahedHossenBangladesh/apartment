@@ -1,8 +1,52 @@
-
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.mSingleAprtmnt{
+  background: #ffff;
+  transition: all 0.5s linear;
+}
+.mSingleAprtmnt:hover{
+  box-shadow: 0px 0px 20px 0px #1C423D;
+}
+.aprtName{
+  font-size: 22px;
+  font-weight: bold;
+  color: #275A53;
+}
+.aprtLocation{
+  font-size: 22px;
+}
+.beedRoom, .bathRoom{
+    color: #7c7c7c;
+}
+.price{
+
+}
+.price h5{
+font-size: 22px;
+font-weight: bold;
+color: #275A53;
+}
+.aprtBtn{
+
+}
+
+.aprtBtn button{
+  background: #275A53;
+  height: 45px;
+  width: 140px;
+  line-height: 0px;
+  color: #fff;
+  padding: 0px !important;
+  border: 2px solid #275A53 !important;
+  transition: all 0.5s linear;
+}
+.aprtBtn button:hover{
+  background: #275a5300;
+  color: #275A53;
+ 
+}
+
